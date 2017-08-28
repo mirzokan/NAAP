@@ -14,3 +14,5 @@ The general algorithm of the program:
 * A first derivative of the data is used to approximate maxima of the two peaks. The peak maxima values are further refined by fitting to a polynomial equation. 
 * Assuming peak symmetry, convoluted edges of the two peaks are resolved and areas under the three regions of the NECEEM electropherograms are calculated. This step uses the original non-smoothed data
 * The signal areas are used to calculate Kd, kon and koff.
+
+Example data is included in the "Databank" directory for you to try it out.
